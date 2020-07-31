@@ -2,4 +2,50 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #333;
+}
+
+.box{
+    margin: 5% 50%;
+    transform: translate(-50%);
+    width: 40%;
+    background-color: #ffffffc2;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box input{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    color: #333;
+    outline: none;
+    border-bottom: #333 solid 3px;
+    transition: 5ms linear;
+}
+
+.box input:focus{
+    border-bottom: #000 solid 3px;
+}
+
+.box .far{
+    font-size: 1.1em;
+}
+
+.box .far:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.box-requisitos{
+    background-color: rgba(51,51,51,.5);
+    margin: 30px;
+    padding: 10px;
+}
+
+.box-requisitos li{
+    list-style: none;
 }
