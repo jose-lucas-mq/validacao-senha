@@ -18,24 +18,24 @@
 <body>
     <div class="box">
         <h1>Verifica senha</h1>
-        <input type="password" placeholder="Crie uma senha">
-        <i class="far fa-eye"></i>
+        <input type="password" onkeyup="validation()" id="senha" placeholder="Crie uma senha">
+        <i class="far fa-eye" id="show_block" onclick="show()"></i>
 
         <!-- <i class="far fa-eye-slash"></i> -->
 
 
         <div class="box-requisitos">
             <li>
-                <i class="fas fa-times"></i> Maiúsculas
+                <i class="fas fa-times" id="maiusculas"></i> Maiúsculas
             </li>
             <li>
-                <i class="fas fa-times"></i> Minúsculas
+                <i class="fas fa-times" id="minusculas"></i> Minúsculas
             </li>
             <li>
-                <i class="fas fa-times"></i> Números
+                <i class="fas fa-times" id="numeros"></i> Números
             </li>
             <li>
-                <i class="fas fa-times"></i> Símbolos
+                <i class="fas fa-times" id="simbolos"></i> Símbolos
             </li>
         </div>
 
