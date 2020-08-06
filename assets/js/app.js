@@ -50,6 +50,6 @@ function validation() {
     }
 
     if(cont >= 4){
-        ir.removeAttribute("disabled");
+        ir.style.display = 'block';
     }
 }

@@ -31,6 +31,28 @@ body{
     border-bottom: #000 solid 3px;
 }
 
+.box button{
+    border: none;
+    background-color: #333;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    border-bottom: #fff solid 3px;
+    transition: .2s linear;
+    cursor: pointer;
+    width: 20%;
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+.box button:hover{
+    background-color: #fff;
+    color: #333;
+    border-bottom: #333 solid 3px;
+}
+
 .box .far{
     font-size: 1.1em;
 }
